@@ -1,0 +1,25 @@
+<?php
+
+return array(
+    'settings' => 'Settings',
+    'account_details' => 'Account details',
+    'choose_image' => 'Choose Image',
+    'account_details_has_been_updated_successfully' => 'Account details has been updated successfully',
+    'change_password' => 'Change Password',
+    'save_changes' => 'Save Changes',
+    'account_password_has_been_changed_successfully' => 'Account password has been changed successfully',
+    '2fa_authentication' => '2FA Authentication',
+    '2fa_top_description' => 'Two-factor authentication (2FA) strengthens access security by requiring two methods (also referred to as factors) to verify your identity. Two-factor authentication protects against phishing, social engineering, and password brute force attacks and secures your logins from attackers exploiting weak or stolen credentials.',
+    '2fa_bottom_description' => 'To use the two factor authentication, you have to install a Google Authenticator compatible app. Here are some that are currently available',
+    'google_authenticator_for_ios' => 'Google Authenticator for iOS',
+    'google_authenticator_for_android' => 'Google Authenticator for Android',
+    'microsoft_authenticator_for_ios' => 'Microsoft Authenticator for iOS',
+    'microsoft_authenticator_for_android' => 'Microsoft Authenticator for Android',
+    'enable_2fa_authentication' => 'Enable 2FA Authentication',
+    'enable' => 'Enable',
+    '2fa_authentication_has_been_enabled_successfully' => '2FA Authentication has been enabled successfully',
+    'disable_2fa_authentication' => 'Disable 2FA Authentication',
+    'disable' => 'Disable',
+    'invalid_otp_code' => 'Invalid OTP code',
+    '2fa_authentication_has_been_disabled_successfully' => '2FA Authentication has been disabled successfully',
+);

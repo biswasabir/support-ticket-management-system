@@ -1,0 +1,179 @@
+html,
+body {
+    direction: rtl;
+}
+
+.simplebar-track {
+    right: auto;
+    left: 0;
+}
+
+input[type="email"] {
+    direction: rtl;
+}
+
+.nav-bar .nav-bar-menu {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+    .nav-bar .nav-bar-menu .nav-bar-links .link:not(:last-child),
+    .nav-bar .nav-bar-menu .nav-bar-links .drop-down:not(:last-child) {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-bar .nav-bar-menu .nav-bar-links .link-btn:not(:last-child) {
+        margin-right: 0;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .nav-bar .nav-bar-actions {
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-bar .nav-search {
+        margin-left: 12px;
+        margin-right: 180px;
+    }
+}
+
+.nav-bar .nav-search .search-input .search-input-icon {
+    right: 0;
+    left: auto;
+}
+
+.nav-bar .nav-search .search-input input {
+    padding: 12px 50px 12px 20px;
+}
+
+@media (max-width: 991.98px) {
+    .nav-bar .nav-search .search-input input {
+        padding-left: 60px;
+    }
+}
+
+.nav-bar .nav-search .search-input .search-close {
+    right: auto;
+    left: 25px;
+}
+
+.form-search .form-control {
+    padding-right: 45px;
+    padding-left: 0.75rem;
+}
+
+.form-search button,
+.form-search .icon {
+    right: 0;
+    left: auto;
+}
+
+@media (max-width: 1199.98px) {
+    .user-menu {
+        margin-right: 0;
+        margin-left: 16px;
+    }
+}
+
+.languages.drop-down .language-img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.user-menu .user-img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.header-search .search-input input {
+    padding: 20px 30px 20px 75px;
+}
+
+.header-search .search-input .search-icon {
+    left: 0;
+    right: auto;
+}
+
+.header-search select {
+    padding: 20px 30px 20px 50px;
+}
+
+.header-search button {
+    border-radius: 10px 0 0 10px;
+}
+
+.sidebar-toggle {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.page-sidebar .page-sidebar-inner {
+    padding-right: 0;
+    padding-left: 16px;
+}
+
+@media (min-width: 992px) {
+    .page-body {
+        border-right: 1px solid rgba(0, 0, 0, 0.05);
+        border-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-doc .wrapper {
+        padding: 47px 80px 47px 0;
+    }
+}
+
+.page-doc.toggle .page-body {
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+@media (max-width: 1199.98px) {
+    .dash .dash-sidebar-inner {
+        right: -260px;
+    }
+}
+
+.dash.toggle .dash-sidebar {
+    right: -260px;
+}
+
+@media (max-width: 1199.98px) {
+    .dash.toggle .dash-sidebar {
+        right: 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .dash.toggle .dash-sidebar-inner {
+        right: 0;
+    }
+}
+
+.dash-sidebar-link-menu {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.drop-down .drop-down-menu {
+    left: 0;
+    right: auto;
+}
+
+@media (max-width: 669.98px) {
+    .drop-down.drop-down-lg .drop-down-menu {
+        right: auto;
+        left: -100px;
+    }
+}
